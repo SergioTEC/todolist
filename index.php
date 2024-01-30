@@ -15,12 +15,15 @@
 <body class="body-style">
 
     <nav class="menu-style">
-        <div class="menu-text">
+        <div class="menu-style-text">
             MENU
         </div>
 
         <div class="task-style">
-            TAREFAS
+            <div class="task-style-text">
+                TAREFAS
+            </div>
+
             <button class="button-style">
                 Por vir
             </button>
@@ -37,11 +40,21 @@
                 Notas adesivas
             </button>
         </div>
+
+        <div class="list-style">
+            <div class="list-style-text">
+                LISTAS
+            </div>
+
+            <button class="button-style">
+                Adicionar Nova Lista
+            </button>
+        </div>
     </nav>
 
     <main class="main-style">
         <div class="today-style">
-            Hoje
+            MAIN
         </div>
     </main>
 
