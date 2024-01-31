@@ -35,12 +35,12 @@
     background-color: #000000;
 }
 
-.task-style-text {
-    font-family: 'Rubik', sans-serif;
+.primary-menu-text {
     font-size: 18px;
+    font-family: 'Rubik', sans-serif;
 }
 
-.task-style {
+.options-menu-style {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -60,17 +60,4 @@
 
 .button-style:hover {
     background-color: #000000;
-}
-
-.list-style {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.list-style-text {
-    font-size: 18px;
-    font-family: 'Rubik', sans-serif;
 }

@@ -19,8 +19,8 @@
             MENU
         </div>
 
-        <div class="task-style">
-            <div class="task-style-text">
+        <div class="options-menu-style">
+            <div class="primary-menu-text">
                 TAREFAS
             </div>
 
@@ -41,15 +41,26 @@
             </button>
         </div>
 
-        <div class="list-style">
-            <div class="list-style-text">
+        <div class="options-menu-style">
+            <div class="primary-menu-text">
                 LISTAS
             </div>
 
             <button class="button-style">
-                Adicionar Nova Lista
+                Add Nova Lista
             </button>
         </div>
+
+        <div class="options-menu-style">
+            <div class="primary-menu-text">
+                MARCADORES
+            </div>
+
+            <button class="button-style">
+                Add Novo Marcador
+            </button>
+        </div>
+
     </nav>
 
     <main class="main-style">
