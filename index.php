@@ -24,21 +24,21 @@
                 TAREFAS
             </div>
 
-            <button class="button-style">
+            <a href="index.php?page=upcoming" class="task-option-style">
                 Por vir
-            </button>
+            </a>
 
-            <button class="button-style">
+            <a href="index.php?page=today" class="task-option-style">
                 Hoje
-            </button>
+            </a>
 
-            <button class="button-style">
+            <a href="index.php?page=calendar" class="task-option-style">
                 Calendário
-            </button>
+            </a>
 
-            <button class="button-style">
-                Notas adesivas
-            </button>
+            <a href="index.php?page=stickynotes" class="task-option-style">
+                Notas Adesivas
+            </a>
         </div>
 
         <div class="options-menu-style">
@@ -64,9 +64,12 @@
     </nav>
 
     <main class="main-style">
-        <div class="today-style">
-            MAIN
-        </div>
+        <?php
+        if (isset($_GET['page'])) {
+            $page = $_GET['page'];
+            include($page . '.php');
+        }
+        ?>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

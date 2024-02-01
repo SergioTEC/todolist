@@ -23,7 +23,7 @@
     padding-left: 15px;
 }
 
-.today-style {
+.upcoming-style {
     font-size: 50px;
     font-family: 'Rubik', sans-serif;
 }
@@ -46,6 +46,20 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
+}
+
+.task-option-style {
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.task-option-style:hover {
+    background-color: #000000;
 }
 
 .button-style {
