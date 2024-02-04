@@ -21,11 +21,69 @@
     margin-left: 10px;
     color: white;
     padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .upcoming-style {
     font-size: 50px;
     font-family: 'Rubik', sans-serif;
+}
+
+.upcoming-container {
+    display: flex;
+}
+
+.today-style {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    background: #dacc91;
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 514px;
+}
+
+.tomorrow-style {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 514px;
+}
+
+.thisweek-style {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 514px;
+}
+
+.add-new-task {
+    font-size: 15px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    height: 45px;
+    align-items: center;
+    text-align: left;
+    padding: 8px
+}
+
+.add-new-task:hover {
+    background-color: #aea377;
+    border: 2px solid #6c6446;
+}
+
+.add-icon {
+    width: 25px;
 }
 
 .body-style {
@@ -46,6 +104,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .task-option-style {
@@ -56,10 +115,13 @@
     text-align: center;
     justify-content: space-between;
     color: white;
+    margin: 1px;
 }
 
 .task-option-style:hover {
     background-color: #000000;
+    color: white;
+    text-decoration: none;
 }
 
 .button-style {
