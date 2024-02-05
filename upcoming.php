@@ -10,7 +10,7 @@
 <body>
 
     <div class="upcoming-style">
-        Por vir
+        <div class="upcoming-text">Por vir</div>
         <div class="upcoming-container">
             <div class="today-style">
                 Hoje
