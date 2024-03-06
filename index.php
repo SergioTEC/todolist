@@ -24,12 +24,16 @@
                 TAREFAS
             </div>
 
-            <a href="index.php?page=upcoming" class="task-option-style">
-                Por vir
+            <a href="index.php?page=upcoming" class="taskc-option-style">
+                <img class="taskc-option-icon" src="bootstrap-icons/stopwatch.svg" alt="upcoming">
+                <div class="taskc-text-style">Por vir</div>
+                <div class="task-counter-style">1</div>
             </a>
 
-            <a href="index.php?page=today" class="task-option-style">
-                Hoje
+            <a href="index.php?page=today" class="taskc-option-style">
+                <img class="taskc-option-icon" src="bootstrap-icons/list-check.svg" alt="today">
+                <div class="taskc-text-style">Hoje</div>
+                <div class="task-counter-style">2</div>
             </a>
 
             <a href="index.php?page=calendar" class="task-option-style">

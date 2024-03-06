@@ -90,7 +90,8 @@
     height: 45px;
     align-items: center;
     text-align: left;
-    padding: 8px
+    padding: 8px;
+    cursor: pointer;
 }
 
 .add-new-task:hover {
@@ -123,6 +124,39 @@
     text-decoration: none;
 }
 
+.taskc-option-style {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.taskc-option-style:hover {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.taskc-option-icon {
+    height: 25px;
+    width: 50px;
+    text-align: right;
+}
+
+.taskc-text-style {
+    width: 170px;
+    text-align: left;
+}
+
+.task-counter-style {
+    width: 30px;
+}
+
 .task-option-style {
     border: none;
     border-radius: 10px;
@@ -138,6 +172,7 @@
     background-color: #000000;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .button-style {
@@ -152,4 +187,57 @@
 
 .button-style:hover {
     background-color: #000000;
+    font-weight: bold;
+}
+
+
+#add-new-task-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 15.5%;
+    width: 84.5%;
+    height: 98%;
+    background-color: #000000b3;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.header-overlay-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.title-overlay-content {
+    font-family: 'Rubik', sans-serif;
+}
+
+.close-overlay-content {
+    font-size: 20px;
+    cursor: pointer;
+    width: 60px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.close-overlay-content:hover {
+    background-color: #dacc91;
+    color: black;
+}
+
+.main-overlay-content {
+    text-align: left;
 }
