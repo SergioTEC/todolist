@@ -209,6 +209,8 @@
     background-color: #303030;
     padding: 15px;
     border-radius: 10px;
+    width: 514px;
+    height: 500px;
 }
 
 .header-overlay-content {
@@ -239,5 +241,41 @@
 }
 
 .main-overlay-content {
+    display: flex;
+    flex-direction: column;
     text-align: left;
+}
+
+.divs-overlay {
+    padding-bottom: 10px;
+}
+
+.input-title-overlay {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 480px;
+    color: white;
+}
+
+.input-title-overlay:hover {
+    border: 2px solid #dacc91;
+}
+
+.input-desc-overlay {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 480px;
+    color: white;
+}   
+
+.input-desc-overlay:hover {
+    border: 2px solid #dacc91;
+}
+
+.select-list-overlay {
+    border-radius: 10px;
+}
+
+.input-date-overlay {
+    border-radius: 10px;
 }
